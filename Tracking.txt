@@ -1,13 +1,17 @@
-Litter Robot 3 Tracking
+--- TO DO/TRACKING ---
+decide which OV2640 to choose and create PCB mounting plan (sticker? lol)
 
 --- INPUT/OUTPUTS ---
 15V DC Input -> Control Board (CB)
 - barrel jack to 2 pin PWR/GND
 CB <-> LED and closed circuit indicator board
 - 2 pin PWR/GND
-CB <-> Drawer Full Indicator (DFI) boards
+CB <- Drawer Full Indicator (DFI) boards
 - 4 pin PWR/GND/SIGs
-CB <-> Weight Close Switch
+CB <- Hall Effect Sensors
+- 4 pin, PWR/GND/SIGs
+CB <- 
+CB <- Weight Close Switch
 - 2 pin PWR/GND
 CB -> 12V Brushed DC Motor
 - 2 pin PWR/GND
@@ -21,9 +25,21 @@ Weight Switch - Upgrade to load cell
 - 2 pin to 4 pin (PWR/GND/SPI)
 
 --- DETAILED COMPONENTS ---
+Control Board:
+OEM has 1x 4 pin, 1x 6 pin, and 1x 8 pin DF11 headers
+4 Pin: DFI
+	1-Blue, 2-Black, 3-Red, 4-Yellow
+6 Pin: PWR, Battery, Motor
+	1-White(PWR+), 2-Black(PWR-), 3-Green(Motor+), 4-Black(Batt-), 5-Brown(Motor-), 6-Red(Batt+)
+8 Pin: Hall Effect, LEDs, Weight
+	1-Green(HE PWR), 2-Yellow(HE1), 3-Orange(HE2), 4-Black(HE GND), 5-Blue(Weight+), 6-Black(Weight-), 7-Purple(LED+), 8-Black(LED-)
+
 LED Bonnet Board:
-OEM is just pwr, gnd, 3 LEDs w/resistors. 
+OEM is just pwr, gnd, 3 LEDs w/resistors. 4 pin but only uses 2.
 - Upgrade with new board, more info under Camera_Board
+
+Hall Effect Sensors:
+one pair of PWR/GNDs spliced for each sensor, then one sig for each
 
 DFI Sensor:
 OEM is a pair one IR LED emitter board and one IR receivers board. Detects if beams are blocked. Need to measure to detect if outputs are digital/serial.
@@ -45,7 +61,5 @@ No IR filtered OV2640 Camera module
 ESP32-S2 MCU
 white LEDs for nightlight
 850nM IR LEDs for night vision
-
-
 
 

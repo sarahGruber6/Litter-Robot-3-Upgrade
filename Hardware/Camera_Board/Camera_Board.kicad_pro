@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Control_Board.kicad_pro",
+    "filename": "Camera_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,26 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Control_Board.kicad_sch",
+        "filename": "Camera_Board.kicad_sch",
         "name": "Root",
-        "uuid": "dfd915fb-cbd4-45ac-acd9-a03ccf310acf"
+        "uuid": "ad006a62-23ab-46c7-b805-813a9fb1b614"
       }
     ],
-    "used_designators": "L1,C5-10,R1-3,#PWR5-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "dfd915fb-cbd4-45ac-acd9-a03ccf310acf",
+      "ad006a62-23ab-46c7-b805-813a9fb1b614",
       "Root"
-    ],
-    [
-      "60980c94-83c3-470d-adc6-366addc22676",
-      "Power"
-    ],
-    [
-      "e4991ac5-f680-48b6-aca6-a1eb466b67b0",
-      "Motor"
     ]
   ],
   "text_variables": {},

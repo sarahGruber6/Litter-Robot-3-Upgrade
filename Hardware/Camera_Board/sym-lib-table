@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Meow") (type "KiCad") (uri "/home/sarah/Documents/KiCad/Meow.kicad_sym") (options "") (descr ""))
+)
