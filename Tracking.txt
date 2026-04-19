@@ -1,0 +1,51 @@
+Litter Robot 3 Tracking
+
+--- INPUT/OUTPUTS ---
+15V DC Input -> Control Board (CB)
+- barrel jack to 2 pin PWR/GND
+CB <-> LED and closed circuit indicator board
+- 2 pin PWR/GND
+CB <-> Drawer Full Indicator (DFI) boards
+- 4 pin PWR/GND/SIGs
+CB <-> Weight Close Switch
+- 2 pin PWR/GND
+CB -> 12V Brushed DC Motor
+- 2 pin PWR/GND
+
+--- PLAN ---
+Replace/Upgrade:
+Control Board - Replace
+LED - Upgrade w/Camera
+- 2 pin to 4 pin (PWR/GND/SPI)
+Weight Switch - Upgrade to load cell
+- 2 pin to 4 pin (PWR/GND/SPI)
+
+--- DETAILED COMPONENTS ---
+LED Bonnet Board:
+OEM is just pwr, gnd, 3 LEDs w/resistors. 
+- Upgrade with new board, more info under Camera_Board
+
+DFI Sensor:
+OEM is a pair one IR LED emitter board and one IR receivers board. Detects if beams are blocked. Need to measure to detect if outputs are digital/serial.
+
+Motor:
+OEM is a 12V brushed DC motor giving measurements of .1A at 12V and .2A if it encounters resistance
+- using H-Bridge driver on CB
+
+--- DETAILED INFO ---
+Control Board:
+ESP32-S2 MCU
+DRV8231ADSG H-Bridge Motor Driver
+Buck Converter 15V->5V
+LDO 5V->3.3V
+
+
+Camera Board:
+No IR filtered OV2640 Camera module
+ESP32-S2 MCU
+white LEDs for nightlight
+850nM IR LEDs for night vision
+
+
+
+
