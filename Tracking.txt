@@ -1,5 +1,7 @@
 --- TO DO/TRACKING ---
 decide which OV2640 to choose and create PCB mounting plan (sticker? lol)
+make footprints with through holes for LEDs
+make carbon pill footprints for silicon switches
 
 --- INPUT/OUTPUTS ---
 15V DC Input -> Control Board (CB)
@@ -54,6 +56,7 @@ ESP32-S2 MCU
 DRV8231ADSG H-Bridge Motor Driver
 Buck Converter 15V->5V
 LDO 5V->3.3V
+the "switches" used with the silicon buttons are called carbon pill keypad contacts. needs ENIG gold finish when manufacturing, not HASL. 
 
 
 Camera Board:

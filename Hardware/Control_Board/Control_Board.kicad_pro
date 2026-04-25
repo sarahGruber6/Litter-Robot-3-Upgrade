@@ -632,7 +632,7 @@
         "uuid": "dfd915fb-cbd4-45ac-acd9-a03ccf310acf"
       }
     ],
-    "used_designators": "L1,C5-10,R1-3,#PWR5-10",
+    "used_designators": "SW1-4,R4-28,Q1-5,C11-14,D1-7,#PWR11-37",
     "variants": []
   },
   "sheets": [
@@ -647,6 +647,10 @@
     [
       "e4991ac5-f680-48b6-aca6-a1eb466b67b0",
       "Motor"
+    ],
+    [
+      "f82c5b66-fb89-4780-b479-de7b3fc9d2b2",
+      "Switches_and_LEDs"
     ]
   ],
   "text_variables": {},

@@ -3442,6 +3442,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 63.5 19.05)
+		(size 22.86 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f82c5b66-fb89-4780-b479-de7b3fc9d2b2")
+		(property "Sheetname" "Switches_and_LEDs"
+			(at 63.5 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switches_and_LEDs.kicad_sch"
+			(at 63.5 31.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Board"
+				(path "/dfd915fb-cbd4-45ac-acd9-a03ccf310acf"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
