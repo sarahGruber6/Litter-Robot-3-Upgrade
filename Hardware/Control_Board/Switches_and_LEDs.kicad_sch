@@ -1357,7 +1357,7 @@
 		)
 		(uuid "21b17f4f-1f3e-4891-92d7-119c35999cea")
 	)
-	(text "Status LED"
+	(text "Status LED (BLUE?)"
 		(exclude_from_sim no)
 		(at 56.642 109.474 0)
 		(effects
@@ -1368,7 +1368,7 @@
 		)
 		(uuid "4a2102ba-25c5-421f-bbe5-620ea7d51fa8")
 	)
-	(text "Sensor/Timing LED"
+	(text "Sensor/Timing LED (RED)"
 		(exclude_from_sim no)
 		(at 101.092 148.844 0)
 		(effects
@@ -1390,7 +1390,7 @@
 		)
 		(uuid "8856c425-d6b6-48da-b67c-fb0ea55916f3")
 	)
-	(text "OK/Waiting LED"
+	(text "OK/Waiting LED (BLUE)"
 		(exclude_from_sim no)
 		(at 101.092 109.474 0)
 		(effects
@@ -1412,7 +1412,7 @@
 		)
 		(uuid "c3d9f609-7666-47e2-9400-2af694a8c187")
 	)
-	(text "Cycling In Use LED"
+	(text "Cycling In Use LED (YELLOW)"
 		(exclude_from_sim no)
 		(at 56.642 148.844 0)
 		(effects
@@ -3315,7 +3315,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 60.96 90)
+		(at 63.5 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3326,29 +3326,29 @@
 		(fields_autoplaced yes)
 		(uuid "33748ea1-a376-4113-9491-72dee85459f6")
 		(property "Reference" "SW4"
-			(at 64.77 59.6899 90)
+			(at 67.31 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Reset"
-			(at 64.77 62.2299 90)
+			(at 67.31 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Meow:Contact_Switch_5mm_Double"
-			(at 58.42 60.96 0)
+			(at 68.58 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 60.96 0)
+			(at 68.58 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +3429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Meow:LED_1204_Hole"
 			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4534,7 +4534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Meow:LED_1204_Hole"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Meow:LED_1204_Hole"
 			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5225,7 +5225,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 21.59 31.75 90)
+		(at 21.59 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5236,29 +5236,29 @@
 		(fields_autoplaced yes)
 		(uuid "94640fae-0f0a-4026-b7c7-c520f7c7a4d7")
 		(property "Reference" "SW1"
-			(at 22.86 30.4799 90)
+			(at 25.4 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Power"
-			(at 22.86 33.0199 90)
+			(at 25.4 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Meow:Contact_Switch_5mm"
-			(at 16.51 31.75 0)
+			(at 26.67 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 31.75 0)
+			(at 26.67 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5718,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 31.75 90)
+		(at 63.5 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5729,29 +5729,29 @@
 		(fields_autoplaced yes)
 		(uuid "ca556d97-25b3-4474-8231-5ee65d075559")
 		(property "Reference" "SW2"
-			(at 64.77 30.4799 90)
+			(at 67.31 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Cycle"
-			(at 64.77 33.0199 90)
+			(at 67.31 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Meow:Contact_Switch_5mm_Double"
-			(at 58.42 31.75 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +5762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 31.75 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6956,7 +6956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Meow:LED_1204_Hole"
 			(at 88.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7094,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 21.59 60.96 90)
+		(at 21.59 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7105,29 +7105,29 @@
 		(fields_autoplaced yes)
 		(uuid "f473a164-6564-4e4b-8af3-9322b9877721")
 		(property "Reference" "SW3"
-			(at 22.86 59.6899 90)
+			(at 25.4 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Empty"
-			(at 22.86 62.2299 90)
+			(at 25.4 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Meow:Contact_Switch_5mm"
-			(at 16.51 60.96 0)
+			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7138,7 +7138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 60.96 0)
+			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
